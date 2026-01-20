@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Mencegah crawling pada folder sistem/privat (jika nanti ada)
+Disallow: /private/
+Disallow: /admin/
+Disallow: /tmp/
+
+# Memastikan Googlebot bisa merender CSS dan JS (Penting untuk SEO Mobile)
+Allow: /assets/
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Lokasi Sitemap
+Sitemap: https://jasapaintballbatumalang.vercel.app/sitemap.xml
